@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const sections = [
   { name: "Home", color: "bg-blue-500", path: "/" },
-  { name: "About", color: "bg-purple-500", path: "/about" },
+  { name: "Experience", color: "bg-purple-500", path: "/experience" },
   { name: "Projects", color: "bg-pink-500", path: "/projects" },
   { name: "Skills", color: "bg-green-500", path: "/skills" },
 ];

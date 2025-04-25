@@ -27,12 +27,6 @@ function Home() {
         <p className="text-sm md:text-lg text-gray-400">
           {HomeText.DESCRIPTION}
         </p>
-        <p className="text-sm md:text-lg text-gray-400">
-          {HomeText.DESCRIPTION2}
-        </p>
-        <p className="text-sm md:text-lg text-gray-400">
-          {HomeText.DESCRIPTION3}
-        </p>
       </div>
     </div>
   );

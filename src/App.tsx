@@ -1,6 +1,9 @@
 import './App.css'
-import Home from './components/Home.tsx'
 import {BrowserRouter,Route,Routes} from "react-router-dom";
+import Home from './components/Home/index.tsx'
+import About from './components/Experience/index.tsx';
+import Experience from './components/Experience/index.tsx';
+import Projects from './components/Projects/index.tsx';
 
 function App() {
 
@@ -8,8 +11,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path='/about' element={<Home/>}/>
-        <Route path='/projects' element={<Home/>}/>
+        <Route path='/experience' element={<Experience/>}/>
+        <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Home/>}/>
       </Routes>
     </BrowserRouter>
