@@ -1,13 +1,6 @@
-import React from "react";
 import DeveloperImage from "../../assets/devloper.jpeg";
 import HomeText from "../../utils/HomeText";
 import CircleSections from "../CirclesComponent";
-const sections = [
-  { name: "About", color: "bg-blue-500" },
-  { name: "Projects", color: "bg-pink-500" },
-  { name: "Skills", color: "bg-green-500" },
-  { name: "Contact", color: "bg-purple-500" },
-];
 
 function Home() {
   return (
@@ -26,6 +19,9 @@ function Home() {
         </h1>
         <p className="text-sm md:text-lg text-gray-400">
           {HomeText.DESCRIPTION}
+        </p>
+        <p className="text-sm md:text-lg text-gray-400">
+          {HomeText.DESCRIPTION_2}
         </p>
       </div>
     </div>
